@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+header {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 25%;
+    height: 100%;
+    border-radius: 15px 60px;
+    padding-left: 30px;
+}
+
+header .name {
+    width: 13%;
+    margin: 1%;
+    margin-right: 0;
+}
+
+header .name h1 {
+    font-family: "Reem Kufi", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.contener {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    margin-top: 2%;
+}
+
+.contener .section {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #fee;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+.contener .section h2 {
+    font-size: 35px;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.contener .section ul li {
+    margin-top: 8%;
+    color: #23cb26;
+}
+
+.contener .section ul a:hover {
+    transition: 0.8s;
+    font-size: xx-large;
+    color: burlywood;
+    text-shadow: 1px 1px green;
+}
+
+.contener .section ul a {
+    text-decoration: none;
+    color: #23cb26;
+}
+
+.contener .center {
+    width: 70%;
+    margin-right: 5%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #fee;
+    padding: 2%;
+    border-radius: 3%;
+}
+
+.contener .center .fp {
+    margin: 2%;
+}
+
+.contener .center h3 {
+    font-size: 25px;
+    margin-bottom: 2%;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.contener .center p {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+
+.contener .center a {
+    font-size: xx-large;
+    text-decoration: none;
+    color: orange;
+    text-align: left;
+}
+
+.imgcontener {
+    width: 100%;
+    height: 65vh;
+    background-color: #e7e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    width: 80%;
+    height: 60vh;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
